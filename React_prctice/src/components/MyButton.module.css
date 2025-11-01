@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    height: 100%;
+}
+
+.title {
+    user-select: none;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: rgb(246 247 249);
+}
+
+.buttonGroup{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    color: rgb(246 247 249);
+    background-color: rgb(69, 71, 76);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0);
+    transition: box-shadow 1.2s ease-in-out, transform 0.3s ease;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px 7px rgb(246 247 249);
+}
+
+.button:active {
+    transform: scale(0.97);
+}
